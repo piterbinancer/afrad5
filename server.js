@@ -3,7 +3,9 @@ const app = express()
 
 
 app.get('/', (req, res) => {
-    res.json('Wlcome to my App.com 777777777ooo')
+    res.json(`
+        <h1>بسم الله الرحمن الرحیم</h1>
+    `)
 })
 
 app.listen(3000, () => {
