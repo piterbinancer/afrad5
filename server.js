@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/', (req, res) => {
-    res.json(`<h1>سلام</h1>`)
+    res.json(`<h1>سلام دنیای جدید من</h1>`)
 })
 
 app.listen(3000, () => {
